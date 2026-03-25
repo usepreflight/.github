@@ -1,0 +1,22 @@
+name: 🚀 New Feature Spec
+description: Alguma ideia genial para empurrar no Swarm?
+title: "[FEATURE] "
+labels: ["enhancement", "feature"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Requisito de Negócio\nDefina com clareza a funcionalidade que você deseja implementar no Preflight."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual é a dor ou o problema?
+      description: Uma descrição sucinta e fria do problema que estamos corrigindo.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Qual é a Solução (Architecture/Spike)?
+      description: Descreva as dependências técnicas para que essa feature ganhe vida.
+    validations:
+      required: true
